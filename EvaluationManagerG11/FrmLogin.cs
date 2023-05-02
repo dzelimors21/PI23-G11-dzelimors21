@@ -29,5 +29,15 @@ namespace EvaluationManagerG11 {
         private void txtPassword_TextChanged(object sender, EventArgs e) {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e) {
+            if(txtUsername.Text == "") {
+                MessageBox.Show("Korisničko ime nije unešeno!", "Problem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               
+            }
+            else if (txtPassword.Text == "") {
+                MessageBox.Show("Lozinka nije unesena!", "Problem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
