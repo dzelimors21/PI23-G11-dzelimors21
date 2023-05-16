@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Evaluation_Manager.Models {
     public class Activity {
-        public int id {
+        public int Id {
             get; set;
         }
         public string Name {

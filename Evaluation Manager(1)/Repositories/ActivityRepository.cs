@@ -49,7 +49,7 @@ namespace Evaluation_Manager.Repositories {
             int minPointsForSignature = int.Parse(reader["MinPointsForSignature"].ToString());
 
             var activity = new Activity {
-                id = id,
+                Id = id,
                 Name = name,
                 Description = description,
                 MaxPoints = maxPoints,

@@ -55,13 +55,14 @@
             // 
             this.numPoints.Location = new System.Drawing.Point(587, 216);
             this.numPoints.Name = "numPoints";
+            this.numPoints.ReadOnly = true;
             this.numPoints.Size = new System.Drawing.Size(48, 20);
             this.numPoints.TabIndex = 1;
             this.numPoints.ValueChanged += new System.EventHandler(this.numPoints_ValueChanged);
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(442, 267);
+            this.btnSave.Location = new System.Drawing.Point(464, 267);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 2;
